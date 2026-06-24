@@ -4,7 +4,7 @@ supported_targets:
 
 extensions:
   avocado-bsp-reterminal:
-    version: 2024.1.0
+    version: 0.1.0
     release: r0
     summary: Board support for the ReTerminal
     description: Board support for the ReTerminal
@@ -69,4 +69,4 @@ extensions:
       kernel-module-videodev: '*'
 
 sdk:
-  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}-{{ env.AVOCADO_DISTRO_CHANNEL }}
+  image: docker.io/avocadolinux/sdk:{{ env.AVOCADO_DISTRO_RELEASE }}
